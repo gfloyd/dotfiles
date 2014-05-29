@@ -1,0 +1,44 @@
+[alias]
+    l = log --pretty=oneline -n 20 --graph
+    s = status -s
+    d = diff --patch-with-stat
+    p = !"git pull; git submodule foreach git pull origin master"
+    c = clone --recursive
+    ca = !git add -A && git commit -av
+    go = checkout -B
+    tags = tag -l
+    remotes = remote -v
+    credit = "!f() { git commit --amend --author \"$1 <$2>\" -C HEAD; }; f"
+    undopush = push -f origin HEAD^:master
+    pom = push origin master
+
+# Detect whitespace errors when applying a patch
+[apply]
+    whitespace = fix
+
+# Use custom `.gitignore` and `.gitattributes`
+[core]
+    excludesfile = /etc/.gitignore
+    attributesfile = ~/.gitattributes
+    # Treat spaces before tabs, lines that are indented with 8 or more spaces, and all kinds of trailing whitespace as an error
+    whitespace = space-before-tab,indent-with-non-tab,trailing-space
+
+[color]
+    # Use colors in Git commands that are capable of colored output when outputting to the terminal
+    ui = auto
+
+# Include summaries of merged commits in newly created merge commit messages
+[merge]
+    log = true
+
+# Use `origin` as the default remote on the `master` branch in all cases
+[branch "master"]
+    remote = origin
+    merge = refs/heads/master
+
+[credential]
+	helper = osxkeychain
+
+[user]
+	name = Graham Floyd
+	email = gfloyd@catsone.com
