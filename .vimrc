@@ -15,3 +15,5 @@ syntax enable
 set background=dark
 colorscheme Tomorrow-Night-Eighties 
 
+map <C-n> :NERDTreeToggle<CR>
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
