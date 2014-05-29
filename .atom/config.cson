@@ -1,0 +1,18 @@
+'exception-reporting':
+  'userId': 'df529811-e45b-7b71-fef9-b4892e008e7e'
+'welcome':
+  'showOnStartup': false
+'metrics':
+  'userId': 'ebd390e01368af341534a174bed7b6050fa85df9'
+'editor':
+  'fontSize': 12
+  'fontFamily': 'Source Code Pro'
+  'preferredLineLength': 120
+  'showIndentGuide': true
+  'showInvisibles': true
+  'tabLength': 4
+'core':
+  'themes': [
+    'neutron-ui'
+    'Tomorrow-Night-Eighties'
+  ]
