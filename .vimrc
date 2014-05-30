@@ -17,3 +17,5 @@ colorscheme Tomorrow-Night-Eighties
 
 map <C-n> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+
+let g:airline_powerline_fonts = 1
