@@ -1,0 +1,11 @@
+--color
+--sort-files
+
+--ignore-dir=.git
+--ignore-dir=.svn
+--ignore-dir=.idea
+--ignore-dir=vendor
+--ignore-dir=tmp
+--ignore-dir=node_modules
+
+--type-set=json:ext:json
