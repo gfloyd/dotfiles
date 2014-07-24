@@ -24,3 +24,5 @@ let g:airline_powerline_fonts = 1
 let g:neocomplcache_enable_at_startup = 1
 let g:ctrlp_custom_ignore = '\v[\/](node_modules|target|dist|vendor|tmp)|(\.(swp|ico|git|svn))$'
 
+autocmd BufNewFile,BufRead Berksfile set filetype=ruby
+
