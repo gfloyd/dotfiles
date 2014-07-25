@@ -5,7 +5,7 @@ export ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="bureau"
+ZSH_THEME="agnoster-graham"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -72,3 +72,7 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
+
+export DYLD_FORCE_FLAT_NAMESPACE=1
+
+export EDITOR=vim
