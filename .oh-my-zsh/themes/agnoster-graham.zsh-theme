@@ -78,7 +78,7 @@ prompt_git() {
     if [[ -n $dirty ]]; then
       prompt_segment green black
     else
-      prompt_segment 236 251
+      prompt_segment 237 251
     fi
 
     if [[ -e "${repo_path}/BISECT_LOG" ]]; then
