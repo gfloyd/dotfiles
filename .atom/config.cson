@@ -8,11 +8,14 @@
   'fontSize': 12
   'fontFamily': 'Source Code Pro'
   'preferredLineLength': 120
-  'showIndentGuide': true
-  'showInvisibles': true
   'tabLength': 4
 'core':
   'themes': [
-    'neutron-ui'
-    'Tomorrow-Night-Eighties'
+    'spacegray-dark-ui'
+    'base16-ocean-dark-spacegray'
   ]
+'docblockr': {}
+'whitespace':
+  'ignoreWhitespaceOnCurrentLine': false
+'autocomplete-plus':
+  'includeCompletionsFromAllBuffers': true
