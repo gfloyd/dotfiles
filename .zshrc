@@ -73,6 +73,4 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
-export DYLD_FORCE_FLAT_NAMESPACE=1
-
 export EDITOR=vim
